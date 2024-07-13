@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/perf
 
 PRODUCT_COPY_FILES += \
+    vendor/qcom/perf/proprietary/system/lib/vendor.qti.hardware.perf2-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.perf2-V1-ndk.so \
     vendor/qcom/perf/proprietary/system/lib64/vendor.qti.hardware.perf2-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.perf2-V1-ndk.so \
     vendor/qcom/perf/proprietary/system_ext/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/perfservice \
     vendor/qcom/perf/proprietary/system_ext/bin/qspmsvc:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qspmsvc \
